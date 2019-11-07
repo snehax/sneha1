@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #900C3E;
+  font-family: 'Great Vibes';
+  font-size: 72px;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Georgia';
+  font-size: 22px;
+  color: #900C3E;
+  margin: 0;
+  text-align: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: baseline;
+  width: auto;
+}
+.btn {
+  color: #900C3E;
+  background: rgba(84, 168, 146, 0.16);
+  border: 2px solid #900C3E;
+  border-radius: 4px;
+  font-family: 'Great Vibes';
+  font-size: 30px;
+  padding: 7px 20px;
+  text-decoration: none;
+  transition: all 200ms ease-in;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 680px;
+  width: 100%;
+  
+}
+.container h1 {
+  font-size: 60px;
+}
+.container img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: baseline;
+  width: auto;
+}
+.container p {
+  color: #727272;
+  font-family: 'Muli';
+  line-height: 1.5;
+  margin: 0;
+  padding: 0px 40px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.container h2 {
+  font-family: 'Great Vibes';
+  font-size: 33px;
+  margin: 20px auto;
+  text-align: center;
+}
+.container h3 {
+  font-family: 'Muli';
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.container .register img {
+  opacity: 1;
+  transition: all 150ms ease-in;
+  -webkit-transition: all 150ms ease-in;
+  -moz-transition: all 150ms ease-in;
+  -ms-transition: all 150ms ease-in;
+  -o-transition: all 150ms ease-in;
+}
+.container .register img:hover {
+  opacity: .67;
+}
+@media (max-width: 620px) {
+  .container .register img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.container .clmn {
+  float: left;
+  text-align: center;
+  width: 49%;
+}
+@media (max-width: 615px) {
+  .container .clmn {
+    width: 100%;
+  }
+}
+.container .clmn img {
+  border-radius: 50%;
+  border: 5px solid #900C3E;
+  width: 35%;
+}
+.container .clmn h3 {
+  color: #8F8F8F;
+  font-family: 'Great Vibes';
+  font-size: 20px;
+  margin: 20px auto;
+  text-align: center;
+}
+.container .us h2 {
+  font-size: 53px;
+}
+.flower {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 49%;
+}
+@media (max-width: 615px) {
+  .flower {
+    width: 100%;
+  }
+}
+.flower img {
+  border-radius: 50%;
+  border: 5px solid #900C3E;
+  width: 35%;
+}
+.flower h3 {
+  color: #8F8F8F;
+  font-family: 'Great Vibes';
+  font-size: 20px;
+  margin: 20px auto;
+  text-align: center;
+}
+.header {
+  background: white;
+  height: 125px;
+  margin: 60px 0 40px 0;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .header {
+    margin: 120px 0 120px 0;
+  }
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 30px auto;
+  max-width: 680px;
+  position: relative;
+}
+
+header{
+background-color:#900C3E;
+font-size:2em;
+padding:15px;
+margin-bottom:10px;
+text-align: center;
+font-family: 'muli';
+color: #fff;
+}
+.active-link>a{
+	text-decoration: none;
+	color: #FFF;
+}
+#sec1{
+  background-image: url("2.jpg");
+  background-size: contain;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+#sec2{
+
+  background-image: url("4.jpg");
+  background-size: contain;
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#fbm {
+    max-width: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+a>button {
+    width: 210px;
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #007FFF;
+    border-radius: 45px;
+    font-family: 'Muli';
+    font-size: 14px;
+    color: #007FFF;
+    box-shadow: 0 12px 35px 0 rgba(0, 0, 0, 0.2), 0 16px 18px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.contact{
+	text-align: center;
+	font-size: 18px;
+	color: #900C3E;
+	font-family: 'Muli';
+}
+.contact>a{
+	color: #900C3E;
+}
